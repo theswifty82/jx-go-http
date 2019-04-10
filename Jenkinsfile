@@ -9,8 +9,10 @@ pipeline {
   }
   stages {
     stage ('Hello Zoltan') {
+	steps {
 	echo 'hello Zoltan!'
 	}
+      }
     stage('CI Build and push snapshot') {
       when {
         branch 'PR-*'

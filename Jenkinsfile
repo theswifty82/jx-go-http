@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage ('Hello Zoltan') {
 	steps {
-	echo 'hello Zoltan!'
+	echo 'hello Zoltan How are you today?'
 	}
       }
     stage('CI Build and push snapshot') {
